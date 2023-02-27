@@ -1,0 +1,54 @@
+{
+"intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "What's up", "Howdy"],
+            "responses": ["Hello, what questions do you have?", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you later!", "Have a nice day", "Bye! Come back again soon"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, I don't understand what you mean", "I don't think I can help with that, please ask me something else", "Sorry, I can't do that yet"]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What is your functionality?"],
+            "responses": ["I can direct you to your nearest Taco Bell, send you contact information, give you a recommendation, tell you today's deals, and give you a fun fact!", "Offering support for directions, contact information, recommendations, deals, and fun facts!"]
+        },
+        {
+            "tag": "directions",
+            "patterns": ["Can you give me directions?", "How do I get there?", "Where are you located?", "How do I find your location?", "Tell me where you are", "Where is my nearest Taco Bell?"],
+            "responses": ["We are located at 512 E Green Street", "Come visit us at 512 E Green Street", "You can find us on Green Street, near Legends and Signature Grill"]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["What's the best way to reach you?", "How do I contact you?", "What's your phone number", "How do I call you?", "Tell me your contact information"],
+            "responses": ["Our phone number is 217-344-9649", "Call us at 217-344-9649!", "You can reach us at 217-344-9649"]
+        },
+        {
+            "tag": "recommendation",
+            "patterns": ["Do you have any recommendations?", "What should I eat today?", "What is your best menu item?", "Give me a recommendation", "Give me something to eat", "What is your favorite item?", "Recommend me something"],
+            "responses": ["Try our Shredded Chicken Burrito!", "Try our XXL Grilled Stuffed Burrito!", "Try our Mexican Pizza!", "Try our Quesarito!", "Try our Loaded Potato Griller!", "Try our Enchirito!", "Try our Pintos 'n Cheese!", "Try our Cheesy Fiesta Potatoes!", "Try our Cinna Twists!", "Try our 7-Layer Burrito!", "Try our Grande Scrambler!", "Try our Nachos Supreme!", "Try our Double Chalupa!", "Try our Doritos Locos Tacos!", "Try our Chili Cheese Burrito!", "Try our Cheesy Gordita Crunch!", "Try our Crunchwrap Supreme!"]
+        },
+        {
+            "tag": "deals",
+            "patterns": ["What are the deals for today?", "Do you have any daily specials?", "What's the deal of the day?", "Do you have any discounts?", "Is there anything new on the menu?", "What are today's deals?"],
+            "responses": ["Our $5 Grande Stacker Box might be worth your time!", "If you have a large group, the Nachos Party Pack is what you need!", "Try our new Dragonfruit Freeze drink!"]
+        },
+        {
+            "tag": "fact",
+            "patterns": ["Give me a fun fact", "Tell me something new", "Can you tell me a fun fact?"],
+            "responses": ["Taco Bell is named after our founder, Glen Bell", "Our tacos were originally 19 cents!", "The first Taco Bell location had fire pits and mariachi bands", "The taco bell Chihuahua made us have to settle a 42 million dollar lawsuit!", "We are so so so so sorry for removing the Quesarito :("]
+        }
+
+    ]
+}
